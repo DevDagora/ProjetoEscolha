@@ -8,6 +8,7 @@ const App: React.FC = () => {
     <Routes>
       <Route path="/" element={<QuestPage initialQuestId="A000" />} />
       <Route path="/error" element={<ErrorPage />} />
+      <Route path="*" element={<Navigate to="/" />} />
     </Routes>
   );
 };
