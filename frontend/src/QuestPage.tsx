@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Box, Button, Text, VStack, HStack } from '@chakra-ui/react';
+import { useNavigate } from 'react-router-dom';
 import questData from './assets/quests.json';
 import { Quest, QuestData } from './types';
 
@@ -10,11 +11,12 @@ const fetchQuest = (id: string, data: QuestData): Quest | null => {
 const QuestPage: React.FC<{ initialQuestId: string }> = ({ initialQuestId }) => {
   const [currentQuest, setCurrentQuest] = useState<Quest | null>(fetchQuest(initialQuestId, questData as QuestData));
   const [questHistory, setQuestHistory] = useState<string[]>([initialQuestId]);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const quest = fetchQuest(initialQuestId, questData as QuestData);
     if (quest === null) {
-      window.location.href = '/ProjetoEscolha/error';
+      navigate('/ProjetoEscolha/error');
     } else {
       setCurrentQuest(quest);
     }
@@ -23,10 +25,11 @@ const QuestPage: React.FC<{ initialQuestId: string }> = ({ initialQuestId }) => 
   const handleAnswerClick = (idCaminho: string) => {
     const quest = fetchQuest(idCaminho, questData as QuestData);
     if (quest === null) {
-      window.location.href = '/ProjetoEscolha/error';
+      navigate('/ProjetoEscolha/error');
     } else {
       setCurrentQuest(quest);
       setQuestHistory([...questHistory, idCaminho]);
+      navigate(`/ProjetoEscolha`);
     }
   };
 

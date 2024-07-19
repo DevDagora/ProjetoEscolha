@@ -3,7 +3,7 @@ import { Box, Button, Text, VStack } from '@chakra-ui/react';
 
 const ErrorPage: React.FC = () => {
   const handleGoHome = () => {
-    window.location.href = '/';
+    window.location.href = '/ProjetoEscolha';
   };
 
   return (
