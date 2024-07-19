@@ -1,12 +1,9 @@
 import React from 'react';
 import { Box, Button, Text, VStack } from '@chakra-ui/react';
-import { useNavigate } from 'react-router-dom';
 
 const ErrorPage: React.FC = () => {
-  const navigate = useNavigate();
-
   const handleGoHome = () => {
-    navigate('/');
+    window.location.href = '/';
   };
 
   return (
