@@ -7,7 +7,7 @@ const App: React.FC = () => {
   return (
     <Routes>
       <Route path="/" element={<Navigate to="/ProjetoEscolha" />} />
-      <Route path="/ProjetoEscolha" element={<QuestPage initialQuestId="A000" />} />
+      <Route path="/" element={<QuestPage initialQuestId="A000" />} />
       <Route path="/ProjetoEscolha/error" element={<ErrorPage />} />
       <Route path="*" element={<Navigate to="/ProjetoEscolha" />} />
     </Routes>
