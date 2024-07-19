@@ -1,0 +1,177 @@
+{
+    "quest": {
+        "A000": {
+            "ID_Quest": "A000",
+            "PlanoDeFundo": "teste.jpg",
+            "TextoQuest": "Bem vindo, esse é um projeto em desenvolvimento de Dagora e Essa mulher que tem tantos nomes, Babi, Medhbh, Barbara, Senhora e imperatriz do universo observavel, qual devo usar?",
+            "Respostas": {
+              "Resposta1": {
+                "texto": "Começar jogo",
+                "ID_Caminho": "A001"
+              },
+              "Resposta2": {
+                "texto": "Não, obrigado",
+                "ID_Caminho": "A000"
+              },
+              "Resposta3": {
+                "texto": "Olha, um botão, que legal",
+                "ID_Caminho": "A000"
+              },
+              "Resposta4": {
+                "texto": "Creditos",
+                "ID_Caminho": "A000"
+              }
+            }
+          },
+      "A001": {
+        "ID_Quest": "A001",
+        "PlanoDeFundo": "vendedor.jpg",
+        "TextoQuest": "O vendedor aparece e pergunta se você quer comprar algo",
+        "Respostas": {
+          "Resposta1": {
+            "texto": "Sim, eu adoraria",
+            "ID_Caminho": "B001"
+          },
+          "Resposta2": {
+            "texto": "Não, obrigado",
+            "ID_Caminho": "A002"
+          },
+          "Resposta3": {
+            "texto": "Comprar não, quero lhe assaltar",
+            "ID_Caminho": "C001"
+          },
+          "Resposta4": {
+            "texto": "Encarar o vendedor",
+            "ID_Caminho": "AI02"
+          }
+        }
+      },
+      "B001": {
+        "ID_Quest": "B001",
+        "PlanoDeFundo": "Loja.png",
+        "TextoQuest": "Você entra na loja e vê vários itens. O que deseja fazer?",
+        "Respostas": {
+          "Resposta1": {
+            "texto": "Comprar uma espada",
+            "ID_Caminho": "B002"
+          },
+          "Resposta2": {
+            "texto": "Sair da loja",
+            "ID_Caminho": "A003"
+          }
+        }
+      },
+      "A002": {
+        "ID_Quest": "A002",
+        "PlanoDeFundo": "Rua.jpg",
+        "TextoQuest": "Você decide não comprar nada e segue seu caminho.",
+        "Respostas": {
+          "Resposta1": {
+            "texto": "Continuar andando",
+            "ID_Caminho": "A003"
+          }
+        }
+      },
+      "C001": {
+        "ID_Quest": "C001",
+        "PlanoDeFundo": "Policia.jpg",
+        "TextoQuest": "Você tentou assaltar o vendedor e a polícia chegou. Você foi preso.",
+        "Respostas": {}
+      },
+      "B002": {
+        "ID_Quest": "B002",
+        "PlanoDeFundo": "Loja_Espada.jpeg",
+        "TextoQuest": "Você comprou uma espada. O que deseja fazer agora?",
+        "Respostas": {
+          "Resposta1": {
+            "texto": "Sair da loja",
+            "ID_Caminho": "A003"
+          }
+        }
+      },
+      "A003": {
+        "ID_Quest": "A003",
+        "PlanoDeFundo": "Rua.jpg",
+        "TextoQuest": "Você continua andando pela rua e chega a uma encruzilhada.",
+        "Respostas": {
+          "Resposta1": {
+            "texto": "Ir para o norte",
+            "ID_Caminho": "D001"
+          },
+          "Resposta2": {
+            "texto": "Ir para o sul",
+            "ID_Caminho": "D002"
+          }
+        }
+      },
+      "D001": {
+        "ID_Quest": "D001",
+        "PlanoDeFundo": "Rua.jpg",
+        "TextoQuest": "Você anda pela rua feliz, para sempre feliz, final feliz",
+        "Respostas": {
+          "Resposta1": {
+            "texto": "Obrigado por jogar",
+            "ID_Caminho": "D002"
+          }
+        }
+      },
+      "D002": {
+        "ID_Quest": "D002",
+        "PlanoDeFundo": "Rua.jpg",
+        "TextoQuest": "Parabéns, você chegou a um dos finais, tente encontrar outro final",
+        "Respostas": {
+          "Resposta1": {
+            "texto": "Tentar novamente",
+            "ID_Caminho": "A001"
+          }
+        }
+      },
+      "AI02": {
+        "ID_Quest": "AI02",
+        "PlanoDeFundo": "vendedor.jpg",
+        "TextoQuest": "O vendedor aparece e pergunta se você quer comprar algo",
+        "Respostas": {
+          "Resposta1": {
+            "texto": "Sim, eu adoraria",
+            "ID_Caminho": "B001"
+          },
+          "Resposta2": {
+            "texto": "Não, obrigado",
+            "ID_Caminho": "A002"
+          },
+          "Resposta3": {
+            "texto": "Comprar não, quero lhe assaltar",
+            "ID_Caminho": "C001"
+          },
+          "Resposta4": {
+            "texto": "Encarar o vendedor",
+            "ID_Caminho": "AI03"
+          }
+        }
+      },
+      "AI03": {
+        "ID_Quest": "AI03",
+        "PlanoDeFundo": "vendedor.jpg",
+        "TextoQuest": "O vendedor aparece e pergunta se você quer comprar algo",
+        "Respostas": {
+          "Resposta1": {
+            "texto": "Sim, eu adoraria",
+            "ID_Caminho": "B001"
+          },
+          "Resposta2": {
+            "texto": "Não, obrigado",
+            "ID_Caminho": "A002"
+          },
+          "Resposta3": {
+            "texto": "Comprar não, quero lhe assaltar",
+            "ID_Caminho": "C001"
+          },
+          "Resposta4": {
+            "texto": "Encarar o vendedor",
+            "ID_Caminho": "C001"
+          }
+        }
+      }
+    }
+  }
+  
