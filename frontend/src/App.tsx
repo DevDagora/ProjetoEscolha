@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Routes, Route, useNavigate } from 'react-router-dom';
-import { Box, Button, Image, Text, VStack, HStack } from '@chakra-ui/react';
+import { Box, Button, Text, VStack, HStack } from '@chakra-ui/react';
 import questData from './assets/quests.json';
 import { Quest, QuestData } from './types';
 import ErrorPage from './ErrorPage';
