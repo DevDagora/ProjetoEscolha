@@ -3,7 +3,7 @@
         "A000": {
             "ID_Quest": "A000",
             "PlanoDeFundo": "teste.jpg",
-            "TextoQuest": "Bem vindo, esse é um projeto em desenvolvimento de Dagora e Essa mulher que tem tantos nomes, Babi, Medhbh, Barbara, Senhora e imperatriz do universo observavel, qual devo usar?",
+            "TextoQuest": "Bem vindo, esse é um projeto em desenvolvimento de Dagora e Gwen Fathaigh",
             "Respostas": {
               "Resposta1": {
                 "texto": "Começar jogo",
